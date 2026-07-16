@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="/css/style.css" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamid Khadir – Portfolio</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hamid Khadir</h1>
+    <p>Webentwickler in Ausbildung</p>
+
+    <nav>
+      <ul>
+        <li><a href="#ueber-mich">Über mich</a></li>
+        <li><a href="#kenntnisse">Fähigkeiten</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Über mich -->
+    <section id="ueber-mich">
+
+      <h2>Über mich</h2>
+
+      <figure>
+        <img class="pic"
+          src="images/myphoto.jpg"
+          alt="Portrait von Hamid Khadir"
+          width="200">
+        <figcaption>Hamid Khadir  Webentwickler in Ausbildung</figcaption>
+      </figure>
+
+      <p>
+        Ich lerne derzeit Webentwicklung und beschäftige mich intensiv mit HTML,
+        CSS und modernen Technologien. Mein Ziel ist es, professionelle,
+        benutzerfreundliche Webseiten zu entwickeln und meine Kenntnisse
+        kontinuierlich zu erweitern.
+      </p>
+
+      <h3>Meine Interessen</h3>
+
+      <ul>
+        <li>Webentwicklung</li>
+        <li>HTML &amp; CSS</li>
+        <li>Programmierung</li>
+        <li>Technologie</li>
+        <li>Kontinuierliches Lernen</li>
+      </ul>
+
+      <h3>Meine Fähigkeiten</h3>
+
+      <ol>
+        <li>Semantisches HTML</li>
+        <li>Grundlagen von CSS</li>
+        <li>Strukturierte Webseiten erstellen</li>
+      </ol>
+
+    </section>
+
+    <!-- Fähigkeiten -->
+    <section id="kenntnisse">
+
+      <h2>Fähigkeiten</h2>
+
+      <table border="1" >
+        <thead>
+          <tr>
+            <th scope="col">Bereich</th>
+            <th scope="col">Kenntnisstand</th>
+            <th scope="col">Erfahrung</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">HTML</th>
+            <td>Fortgeschritten</td>
+            <td>3 Monate</td>
+          </tr>
+
+          <tr>
+            <th scope="row">CSS</th>
+            <td>Grundlagen</td>
+            <td>2 Monate</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Git & GitHub</th>
+            <td>Einsteiger</td>
+            <td>1 Monat</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+
+      <h2>Kontakt</h2>
+
+      <p>
+        <a href="mailto:hamid.khadir@gmail.com">
+          hamid.khadir@gmail.com
+        </a>
+      </p>
+
+      <form action="https://httpbin.org/post" method="post">
+
+        <div>
+          <label for="name">Name *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required>
+        </div>
+
+        <div>
+          <label for="email">E-Mail *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required>
+        </div>
+
+        <div>
+          <label for="telefon">Telefon</label>
+          <input
+            type="tel"
+            id="telefon"
+            name="telefon">
+        </div>
+
+        <div>
+          <label for="betreff">Betreff *</label>
+          <input
+            type="text"
+            id="betreff"
+            name="betreff"
+            required>
+        </div>
+
+        <div>
+          <label for="nachricht">Nachricht *</label>
+          <textarea
+            id="nachricht"
+            name="nachricht"
+            rows="6"
+            placeholder="Schreibe deine Nachricht..."
+            required></textarea>
+        </div>
+
+        <button type="submit">Nachricht senden</button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hamid Khadir. Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hamid Khadir - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>hamid khadir</h1>
+      <p>Student mit Interesse an Programmierung und Musik</p>
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#ueber-mich">Über mich</a></li>
+          <li><a href="#faehigkeiten">Fähigkeiten</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="ueber-mich">
+        <h2>Über mich</h2>
+        <figure>
+          <img
+            src="images/bild.jpg"
+            alt="Naturbild als Hintergrund für das Portfolio von Hamid Khadir"
+            width="300"
+            loading="lazy"
+          />
+          <figcaption>Hamid Khadir, Student und angehender Entwickler</figcaption>
+        </figure>
+        <p>
+          Ich bin Student und interessiere mich für Programmierung und Musik.
+          Ich erweitere meine Kenntnisse in der Webentwicklung und arbeite an
+          eigenen Projekten.
+        </p>
+        <h3>Meine Interessen</h3>
+        <ul>
+          <li>Programmierung</li>
+          <li>Webentwicklung</li>
+          <li>Gitarre</li>
+          <li>Klavier</li>
+          <li>Musik</li>
+        </ul>
+        <h3>Meine Top 3 Skills</h3>
+        <ol>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C++</li>
+        </ol>
+        <p>
+          Mehr über die Grundlagen der Webentwicklung findest du bei
+          <a href="https://developer.mozilla.org/de/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>.
+        </p>
+      </section>
+
+      <section id="faehigkeiten">
+        <h2>Fähigkeiten-Übersicht</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Bereich</th>
+              <th scope="col">Kenntnisstand</th>
+              <th scope="col">Schwerpunkt</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Python</th>
+              <td>Fortgeschritten</td>
+              <td>Programmierung</td>
+            </tr>
+            <tr>
+              <th scope="row">Java</th>
+              <td>Grundlagen</td>
+              <td>Objektorientierung</td>
+            </tr>
+            <tr>
+              <th scope="row">C++</th>
+              <td>Grundlagen</td>
+              <td>Performance</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Schreib mir gerne über das folgende Formular.</p>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">E-Mail*</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon" />
+          </div>
+          <div>
+            <label for="betreff">Betreff*</label>
+            <input type="text" id="betreff" name="betreff" required />
+          </div>
+          <div>
+            <label for="nachricht">Nachricht*</label>
+            <textarea id="nachricht" name="nachricht" rows="6" placeholder="Deine Nachricht..." required></textarea>
+          </div>
+          <button type="submit">Absenden</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 hamid khadir</p>
+    </footer>
+  </body>
+</html>
