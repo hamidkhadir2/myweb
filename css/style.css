@@ -4,8 +4,10 @@
            transition: transform 0.3s ease;
               border: 2px solid rgb(250, 220, 24);
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
   }
   .pic {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
   }
   
