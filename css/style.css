@@ -22,15 +22,18 @@ html {
 }
 
 .menu {
-    
+    position: fixed;
+    top:1px;
     display: flex;
     justify-content: right;
-    background-color: #0f172a;
+    background-color: #435787;
     width: 100%;
-    border-radius: 5px;
+    height: auto;
+    border-radius: 0px 20px 20px 20px;
     color: #e2e8f0;
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
     margin-bottom: 20px;
+    
 }
 
 .pic {
@@ -60,6 +63,8 @@ html {
     text-decoration: none;
     padding: 12px 24px;
     margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     border-radius: 50px 10px 50px 10px;
     border: 1px solid rgba(255,255,255,.15);
 
@@ -104,7 +109,7 @@ object-position: center 35%;
 
 .khadir {
     position: fixed;
-    top: 20px;
+    top: 10px;
     left: 20px;
     color: #fFfFff;
     font-weight: bold;
@@ -112,4 +117,48 @@ object-position: center 35%;
     text-decoration: left;
     align-items: left;
     margin-right: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 20px;
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+      background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 10px;
+}
+ iframe {
+   display: flex;
+    justify-content: right; 
+    margin-left: 25%;
+    width: 50%;
+    aspect-ratio: 16 / 9;
+    border: none;
 }
