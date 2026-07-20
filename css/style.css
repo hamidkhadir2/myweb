@@ -5,6 +5,18 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+.flex-container {
+    display: flex;
+    
+   
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
 .box0 {
     
     height: 100%;
