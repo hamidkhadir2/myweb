@@ -20,6 +20,14 @@ html {
     border: 2px solid #3b82f6;
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
 }
+.box1 {
+    
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 200px;
+}
 
 .menu {
     position: fixed;
