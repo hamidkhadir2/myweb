@@ -5,20 +5,32 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-.box {
+.box0 {
     
     height: 100%;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(30, 41, 59, 0.2);
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block; 
+    background-color: rgba(30, 41, 59, 0.8);
     padding: 20px;
     border-radius: 80px 10px 80px 10px;
     color: #e2e8f0;
     border: 2px solid #3b82f6;
-    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
+    
+}
+
+.box {
+    
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block; 
+    background-color: rgba(30, 41, 59, 0.8);
+    padding: 20px;
+    border-radius: 80px 10px 80px 10px;
+    color: #e2e8f0;
+    border: 2px solid #3b82f6;
+  
 }
 .box1 {
     width: 400px;
@@ -31,7 +43,7 @@ html {
     border-radius: 80px 10px 80px 10px;
     color: #e2e8f0;
     border: 2px solid #3b82f6;
-    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
+   
 }
 
 .menu {
