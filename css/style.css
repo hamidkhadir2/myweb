@@ -9,8 +9,6 @@ html {
 
 .flex-container {
     display: flex;
-    
-   
     justify-content: center;
     text-align: center;
     padding: 20px;
@@ -146,7 +144,7 @@ object-position: center 35%;
 
 .khadir {
     position: fixed;
-    top: 10px;
+    top: 15px;
     left: 20px;
     color: #fFfFff;
     font-weight: bold;
@@ -194,8 +192,8 @@ form button {
  iframe {
    display: flex;
     justify-content: right; 
-    margin-left: 25%;
-    width: 50%;
-    aspect-ratio: 16 / 9;
+    margin-left: 15%;
+    width:70%;
+   height: 400px;
     border: none;
 }
