@@ -9,81 +9,26 @@ html {
 
 .flex-container {
     display: flex;
- 
-    
-
-  
     text-align: center;
     padding: 20px;
     gap: 20px;
 }
 
-.box0 {
-    
-    height: 100%;
-    
-    margin-top: 20px;
-    display: inline-block; 
-    background-color: rgba(30, 41, 59, 0.8);
-    padding: 20px;
-    border-radius: 80px 10px 80px 10px;
-    color: #e2e8f0;
-    border: 2px solid #3b82f6;
-    
-}
-
-.box2 {
-    
-    height: 100%;
-   
-    margin-top: 20px;
-    display: block; 
-    background-color: rgba(30, 41, 59, 0.8);
-    padding: 20px;
-    border-radius:10px 80px 10px 80px;
-    color: #e2e8f0;
-    border: 2px solid #3b82f6;
-  
-}
-.box3 {
-    
-    height: 100%;
-   
-    margin-top: 20px;
-    display: block; 
-    background-color: rgba(30, 41, 59, 0.8);
-    padding: 20px;
-    border-radius:80px 10px 80px 10px;
-    color: #e2e8f0;
-    border: 2px solid #3b82f6;
-  
-}
 
 .box {
     
-    height: 100%;
+    
     margin: 0 auto;
     margin-top: 20px;
     display: block; 
     background-color: rgba(30, 41, 59, 0.8);
     padding: 20px;
-    border-radius: 80px 10px 80px 10px;
+    border-radius: 20px;
     color: #e2e8f0;
     border: 2px solid #3b82f6;
   
 }
-.box1 {
-    
-   
-    margin-top: 20px;
-    display: block; 
-    background-color: rgba(30, 41, 59, 0.8);
-    padding: 20px;
-    border-radius: 80px 10px 80px 10px;
-    color: #e2e8f0;
-    border: 2px solid #3b82f6;
-   
-}
+
 
 .menu {
     position: fixed;
@@ -223,7 +168,8 @@ form button {
     justify-content: right; 
     margin-left: 5%;
     width:90%;
-   height: 400px;
+    margin-top: auto;
+   height: 340px;
     border: none;
 }
 table, th, td {
