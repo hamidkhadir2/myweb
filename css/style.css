@@ -52,17 +52,7 @@
     margin-bottom: 20px;
     
 }
-.khadir {
-    position: fixed;
-    top: 15px;
-    left: 20px;
-    color: #fFfFff;
-    font-weight: bold;
-    font-size: 24px;
-    text-decoration: left;
-    align-items: left;
-    margin-right: 20px;
-}
+
 .button {
     display: inline-block;
     background: linear-gradient(145deg, #3b82f6, #1d4ed8);
@@ -85,14 +75,20 @@
        
 }
 
-
+.khadir {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    color: #fFfFff;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: left;
+    align-items: left;
+    margin-right: 20px;
+   
 }
 
-
-
-
-
-
+}
 
 
 .menu {
@@ -213,11 +209,7 @@ object-position: center 35%;
     background-color:rgba(30, 30, 30, 0.5);
 }
 
-.khadir {
-    position: fixed;
- 
-    display: none;
-}
+
 
 form {
     max-width: 400px;
