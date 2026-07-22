@@ -1,8 +1,9 @@
 .mygrid {
     display: grid;
-    height: 100vh;
     grid-template-rows: 10% 75% 10%;
     grid-template-columns: 20% 60% 20%;
+    height: 100vh;
+    
     gap: 2px;
 }
 .header{
