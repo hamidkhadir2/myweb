@@ -35,7 +35,8 @@
     justify-content: space-between;
     text-align: center;
     padding: 20px;
-    gap: 20px;}
+    gap: 20px;
+ }
    
 .menu {
     display: flex;
@@ -182,9 +183,7 @@ html {
 
 .button:hover {
     transform: translateY(-4px) scale(1.04);
-
     background: linear-gradient(145deg, #60a5fa, #2563eb);
-
     box-shadow:
         0 15px 30px rgba(0,0,0,.45),
         inset 0 1px 2px rgba(255,255,255,.3);
@@ -253,13 +252,13 @@ form button {
     margin-left: 5%;
     width:90%;
     margin-top: 1%;
-   height: 440px;
+   height: 400px;
     border: none;
 }
 table, th, td {
     border: 1px solid #3b82f6;
-    width: 530px;
-    height: 100px;
+    width: 500px;
+    height: 80px;
 }
 p a {
    color: rgb(211, 234, 148);
